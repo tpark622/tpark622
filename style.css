@@ -1,0 +1,32 @@
+* {
+    font-family: Verdana;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    width: 25%;
+    text-height: 20px;
+    text-align: center;
+    font-family: Roboto;
+    font-weight: bold;
+    height: 15%;
+    padding: 3%;
+    background-color: rgb(180, 180, 180);
+    background-image: -webkit-linear-gradient(rgb(150, 150, 150), rgb(250, 250, 250));
+    float: left;
+}
+
+h1 {
+    width: 100%;
+    height: 85%;
+    font-family: 'Playfair Display';
+    color: rgb(120, 0, 120);
+    text-align: center;
+    clear: left;
+    padding: 20%;
+    background: url(http://magic.wizards.com/sites/mtg/files/images/featured/EN_VintageFormat_Header.jpg) no-repeat center;
+    background-size: cover;
+}
