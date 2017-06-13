@@ -1,23 +1,20 @@
----
-layout: default
----
-
-<div class="home">
-
-  <h1 class="page-heading">Posts</h1>
-
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-      </li>
-    {% endfor %}
-  </ul>
-
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
-
-</div>
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel='stylesheet' href='style.css'/>
+	<script src='script.js'></script>
+	<link href="https://fonts.googleapis.com/css?family=Roboto:100" type="text/css" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Playfair+Display" type="text/css" rel="stylesheet">
+</head>
+<body>
+    <div class=headings>
+        <ul>Home</ul>
+        <ul>Learn to Play</ul>
+        <ul>Calendar</ul>
+        <a href='http://magic.wizards.com/en'><ul>Magic Site</ul></a>
+    </div>
+    <h1>
+    Lawrenceville Magic Club
+    </h1>
+</body>
+</html>
