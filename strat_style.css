@@ -23,3 +23,8 @@ a {
   width: 100%;
   clear: left;
 }
+
+.art {
+  background: url(http://fc05.deviantart.net/fs71/f/2014/273/7/d/island___return_to_ravnica_by_fooyee-d813eth.jpg) no-repeat center;
+  background-size: cover;
+}
