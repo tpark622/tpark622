@@ -23,3 +23,8 @@ a {
   width: 100%;
   clear: left;
 }
+
+.art {
+  background: url(http://68.media.tumblr.com/tumblr_m74q1xKYvc1qc29lyo2_1280.jpg) no-repeat center;
+  background-size: cover;
+}
