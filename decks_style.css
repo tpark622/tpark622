@@ -23,3 +23,8 @@ a {
   width: 100%;
   clear: left;
 }
+
+.art {
+  background: url(http://media.wizards.com/images/magic/daily/ld/ld108_alaraArt.jpg) no-repeat center;
+  background-size: cover;
+}
