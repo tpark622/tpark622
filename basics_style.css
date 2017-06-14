@@ -25,5 +25,6 @@ a {
 }
 
 .art {
-  background-image: url(http://media.wizards.com/2015/images/daily/cardart_ZEN_Island-258-Lg.jpg);
+  background: url(http://media.wizards.com/2015/images/daily/cardart_ZEN_Island-258-Lg.jpg) no-repeat center;
+  background-size: cover;
 }
