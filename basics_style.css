@@ -23,3 +23,7 @@ a {
   width: 100%;
   clear: left;
 }
+
+.art {
+  background-image: url(http://media.wizards.com/2015/images/daily/cardart_ZEN_Island-258-Lg.jpg);
+}
